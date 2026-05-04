@@ -1,0 +1,148 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff8e7; /* ✅ cream color */
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #fc8019, #e23744);
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* LOCATION */
+#location {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* SEARCH BAR */
+#search {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    padding: 12px 18px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* GRID */
+#restaurants {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* IMAGE */
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+/* CONTENT */
+.card-content {
+    padding: 15px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin: 4px 0;
+}
+
+/* BUTTONS */
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+/* BUTTON BASE */
+.btn {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* MAP BUTTON */
+.map {
+    background: #555;
+}
+
+.map:hover {
+    background: #333;
+}
+
+/* ORDER BUTTON */
+.order {
+    background: linear-gradient(90deg, #fc8019, #e23744);
+}
+
+.order:hover {
+    opacity: 0.9;
+}
+
+/* NO RESULTS */
+#restaurants p {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    grid-column: 1 / -1;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    header {
+        font-size: 20px;
+    }
+
+    #search {
+        width: 90%;
+    }
+}
