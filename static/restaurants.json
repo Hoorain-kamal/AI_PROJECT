@@ -5,7 +5,7 @@
     "rating": 4.5,
     "category": "Biryani",
     "menu":["Chicken Biryani","Paneer Biryani","Fried Rice","Dragon Chicken","Raita"],
-    "image": "https://images.pexels.com/photos/1762493/pexels-photo-1762493.jpeg",
+    "image": "https://www.swiggy.com/city/bangalore/meghana-foods",
     "reviews": ["Best biryani!", "Very tasty"],
     "map": "https://maps.google.com/?q=Meghana+Foods+Bangalore",
     "order": "https://www.swiggy.com/search?query=Meghana%20Foods"
