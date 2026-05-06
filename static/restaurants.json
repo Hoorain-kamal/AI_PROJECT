@@ -41,7 +41,7 @@
     "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg",
     "reviews": ["Best burgers!", "Affordable"],
     "map": "https://maps.google.com/?q=Truffles",
-    "order": "https://www.zomato.com/search?q=Truffles"
+    "order": "https://www.swiggy.com/search?query=truffles"
   },
   {
     "name": "Leon's Burgers",
